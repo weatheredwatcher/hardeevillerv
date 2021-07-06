@@ -35,6 +35,22 @@ h1 {
     font-family: 'LemonYellowSun';
 }
 
+h2 {
+
+    color:#ffffff;
+    font-family: 'Montserrat';
+    font-size: 27pt;
+}
+
+nav a:hover {
+
+    color: #629b1d;
+}
+.ph-fnt {
+
+    font-size: 32pt;
+}
+
 .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
@@ -59,16 +75,27 @@ h1 {
      
   }
 
-  .navbar {
+  .navbar-main {
 
     font-family: LemonYellowSun;
-    font-weight: 28pt;
+    font-size: 28pt;
     background-color: #ffffff;
   }
 
-  #logo {
 
-    float: left;
+
+  .navbar-gr {
+    font-family: LemonYellowSun;
+    font-size: 28pt;
+    background-color: #629b1d;
+    height: 125px;
+
+  }
+
+  .logo {
+
+   position: relative;
+   top: 30px
 
   }
 
@@ -120,8 +147,18 @@ h1 {
 
     color: #ffffff;
     text-align: center;
-    font-weight: 16pt;
+    font-size: 16pt;
     margin: 0px 450px;
+  }
+
+
+  .footer-text {
+
+    font-family: 'Montserrat';
+    color: #ffffff;
+    font-size: 24pt;
+    text-align: center;
+
   }
 
 @media (min-width: 1200px) {
