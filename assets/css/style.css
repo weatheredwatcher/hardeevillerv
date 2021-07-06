@@ -71,6 +71,8 @@ nav a:hover {
      font-size: 16pt;
      color:#ffffff;
      text-align: center;
+     position: relative;
+     z-index: 999999;
      
      
   }
@@ -92,6 +94,17 @@ nav a:hover {
 
   }
 
+  .logo-index {
+
+    position: relative;
+    top: 123px;
+  }
+
+ .menu-index {
+
+    position:relative;
+    top: 80px
+ }
   .logo {
 
    position: relative;
